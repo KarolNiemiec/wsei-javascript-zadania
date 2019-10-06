@@ -10,7 +10,7 @@ function distFromAvarage(tab) {
     let tab2=[];
     for(let v of tab)
     {
-        tab2.push(y-v);
+        tab2.push(v-y);
     }
     console.log(tab2);
 
