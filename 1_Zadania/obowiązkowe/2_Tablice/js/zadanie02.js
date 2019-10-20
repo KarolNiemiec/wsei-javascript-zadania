@@ -1,12 +1,13 @@
 
 function createArray(number) {
-    var newArray = [10];
+    var newArray = [];
 
-    for (var counter = 1; ; counter <= number) {
+    for (var counter = 0; counter <= number; counter < number++) {
         newArray.push(counter);
+       
     }
 
-    return newArray[2];
+    return newArray;
 }
 
 console.log("tablica z liczbami do 6 = " + createArray(6));
