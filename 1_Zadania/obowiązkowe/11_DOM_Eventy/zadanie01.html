@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="js/zadanie01.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -25,6 +26,10 @@
     </div>
 </body>
 
-<script src="js/zadanie01.js" type="text/javascript"></script>
+<!--<script src="js/zadanie01.js" type="text/javascript"></script>-->
+<!--Po przeniesieniu tagu <script> do sekcji <head> elementy listy ul nastawiają się domyślnie jeden pod drugim-->
+<!--Również tekst praragrafu zniknął, ponieważ skrytp jest wykonywany zanim paragraf zostanie utowrzony-->
+<!--Po dodaniu kodu do eventu DOMContentLoaded sytuacja wróciła so stanu pierwotnego-->
+<!--Stało się tak ponieważ kod jest uruchamiany po całkowitym załadowaniu strony, gdy wszystkie elementy istnieją-->
 
 </html>
